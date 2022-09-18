@@ -69,3 +69,26 @@ console.log("Cor: ".concat(cor));
 console.log("Peso: ".concat(peso));
 console.log("Garantia do produto: ".concat(garantia));
 console.log('\n\n');
+var Funcionario = /** @class */ (function () {
+    function Funcionario() {
+    }
+    return Funcionario;
+}());
+var funcionario = new Funcionario();
+console.log('Class Funcionário:');
+console.log('\n');
+var nomeFuncionario = funcionario.nomeFuncionario = 'Felipe Jesus Dias';
+var cpf = funcionario.cpf = 12303703712;
+var emailFuncionario = funcionario.emailFuncinario = 'felipedias00@gmail.com';
+var telefone = funcionario.telefone = 21968344586;
+var endereco = funcionario.endereco = 'Rua sampaio correa, 23';
+var bairro = funcionario.bairro = 'Centro/Rj';
+var nascionalidade = funcionario.nascionalidade = 'Brasileiro';
+console.log("Nome do funcion\u00E1rio: ".concat(nomeFuncionario));
+console.log("CPF: ".concat(cpf));
+console.log("Email: ".concat(emailFuncionario));
+console.log("N\u00FAmero de contato: ".concat(telefone));
+console.log("Endere\u00E7o: ".concat(endereco));
+console.log("Bairro: ".concat(bairro));
+console.log("Nascionalidade: ".concat(nascionalidade));
+console.log('\n\n');
