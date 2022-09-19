@@ -1,20 +1,14 @@
 var Client = /** @class */ (function () {
-    function Client() {
+    function Client(nome, email, idade, dataDeNascimento) {
+        this.nome = nome;
+        this.email = email;
+        this.idade = idade;
+        this.dataDeNascimento = dataDeNascimento;
     }
     return Client;
 }());
-var cliente = new Client();
-console.log('Class Client:');
-console.log('\n');
-var nome = cliente.nome = 'Rafael da Silva';
-var email = cliente.email = 'rafael123@gmail.com';
-var idade = cliente.idade = 23;
-var dataDeNascimento = cliente.dataDeNascimento = '21/07/1999';
-console.log("Nome do cliente: ".concat(nome));
-console.log("Email: ".concat(email));
-console.log("idade do cliente: ".concat(idade));
-console.log("Data de nascimento: ".concat(dataDeNascimento));
-console.log('\n\n');
+var user = new Client('Julio', 'julio123@gmail.com', 22, '21/07/2000');
+console.table(user);
 var Aviao = /** @class */ (function () {
     function Aviao() {
     }
