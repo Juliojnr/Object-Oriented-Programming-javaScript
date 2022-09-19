@@ -14,9 +14,9 @@ class Client {
         this.email = email;
     }
 }
-    const user = new Client ('Julio', 'julio123@gmail.com', 22, '21/07/2000');
+    const cliente = new Client ('Julio Cesar', 'julio123@gmail.com', 22, '21/07/2000');
 
-    console.table(user);
+    console.table(cliente);
 
 
 
